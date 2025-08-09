@@ -1,5 +1,6 @@
 const API_KEY = "d1e3af61";
-const BASE_URL = "http://www.omdbapi.com/";
+const BASE_URL = "https://www.omdbapi.com/";
+
 
 export const fetchMoviesBySearch = async (query) => {
     const response = await fetch(`${BASE_URL}?apikey=${API_KEY}&s=${query}`);
