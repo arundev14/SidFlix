@@ -1,0 +1,21 @@
+.filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-bar select {
+    background-color: #141414; /* Netflix dark */
+    color: white;
+    border: 1px solid #e50914; /* Netflix red border */
+    padding: 8px 12px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+}
+
+.filter-bar select:hover {
+    border-color: #f40612; /* Lighter red on hover */
+}
